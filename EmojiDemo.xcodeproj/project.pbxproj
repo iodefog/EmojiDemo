@@ -13,6 +13,9 @@
 		C744FA131CC9C2EA0090E47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C744FA111CC9C2EA0090E47A /* Main.storyboard */; };
 		C744FA151CC9C2EA0090E47A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C744FA141CC9C2EA0090E47A /* Assets.xcassets */; };
 		C744FA181CC9C2EA0090E47A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C744FA161CC9C2EA0090E47A /* LaunchScreen.storyboard */; };
+		C744FA211CC9C2F50090E47A /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = C744FA201CC9C2F50090E47A /* NSString+Emoji.m */; };
+		C7BFEDA41CC9F97B002AB0EB /* Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BFEDA31CC9F97B002AB0EB /* Emoji.m */; };
+		C7BFEDA71CC9F9C7002AB0EB /* EmojiEmoticons.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BFEDA61CC9F9C7002AB0EB /* EmojiEmoticons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		C744FA141CC9C2EA0090E47A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C744FA171CC9C2EA0090E47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C744FA191CC9C2EA0090E47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C744FA1F1CC9C2F50090E47A /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		C744FA201CC9C2F50090E47A /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		C7BFEDA21CC9F97B002AB0EB /* Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emoji.h; sourceTree = "<group>"; };
+		C7BFEDA31CC9F97B002AB0EB /* Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emoji.m; sourceTree = "<group>"; };
+		C7BFEDA51CC9F9C7002AB0EB /* EmojiEmoticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiEmoticons.h; sourceTree = "<group>"; };
+		C7BFEDA61CC9F9C7002AB0EB /* EmojiEmoticons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiEmoticons.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				C744FA0C1CC9C2EA0090E47A /* AppDelegate.m */,
 				C744FA0E1CC9C2EA0090E47A /* ViewController.h */,
 				C744FA0F1CC9C2EA0090E47A /* ViewController.m */,
+				C7BFEDA21CC9F97B002AB0EB /* Emoji.h */,
+				C7BFEDA31CC9F97B002AB0EB /* Emoji.m */,
+				C7BFEDA51CC9F9C7002AB0EB /* EmojiEmoticons.h */,
+				C7BFEDA61CC9F9C7002AB0EB /* EmojiEmoticons.m */,
+				C744FA1F1CC9C2F50090E47A /* NSString+Emoji.h */,
+				C744FA201CC9C2F50090E47A /* NSString+Emoji.m */,
 				C744FA111CC9C2EA0090E47A /* Main.storyboard */,
 				C744FA141CC9C2EA0090E47A /* Assets.xcassets */,
 				C744FA161CC9C2EA0090E47A /* LaunchScreen.storyboard */,
@@ -149,8 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7BFEDA71CC9F9C7002AB0EB /* EmojiEmoticons.m in Sources */,
 				C744FA101CC9C2EA0090E47A /* ViewController.m in Sources */,
+				C7BFEDA41CC9F97B002AB0EB /* Emoji.m in Sources */,
 				C744FA0D1CC9C2EA0090E47A /* AppDelegate.m in Sources */,
+				C744FA211CC9C2F50090E47A /* NSString+Emoji.m in Sources */,
 				C744FA0A1CC9C2EA0090E47A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EmojiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sohutv.TestDemo.EmojiDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EmojiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sohutv.TestDemo.EmojiDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +320,7 @@
 				C744FA1E1CC9C2EA0090E47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
