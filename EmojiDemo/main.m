@@ -1,16 +1,18 @@
 //
 //  main.m
-//  EmojiDemo
+//  emojiDemo
 //
-//  Created by LHL on 16/4/22.
-//  Copyright © 2016年 LHL. All rights reserved.
+//  Created by f fsh on 13-3-10.
+//  Copyright (c) 2013年 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
 
-int main(int argc, char * argv[]) {
+#import "CAppDelegate.h"
+
+int main(int argc, char *argv[])
+{
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([CAppDelegate class]));
     }
 }

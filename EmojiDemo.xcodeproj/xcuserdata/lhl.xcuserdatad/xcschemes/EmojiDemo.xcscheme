@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C744FA041CC9C2EA0090E47A"
-               BuildableName = "EmojiDemo.app"
-               BlueprintName = "EmojiDemo"
-               ReferencedContainer = "container:EmojiDemo.xcodeproj">
+               BlueprintIdentifier = "6E9F1AB916ED5B46000356E1"
+               BuildableName = "emojiDemo.app"
+               BlueprintName = "emojiDemo"
+               ReferencedContainer = "container:emojiDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C744FA041CC9C2EA0090E47A"
-            BuildableName = "EmojiDemo.app"
-            BlueprintName = "EmojiDemo"
-            ReferencedContainer = "container:EmojiDemo.xcodeproj">
+            BlueprintIdentifier = "6E9F1AB916ED5B46000356E1"
+            BuildableName = "emojiDemo.app"
+            BlueprintName = "emojiDemo"
+            ReferencedContainer = "container:emojiDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C744FA041CC9C2EA0090E47A"
-            BuildableName = "EmojiDemo.app"
-            BlueprintName = "EmojiDemo"
-            ReferencedContainer = "container:EmojiDemo.xcodeproj">
+            BlueprintIdentifier = "6E9F1AB916ED5B46000356E1"
+            BuildableName = "emojiDemo.app"
+            BlueprintName = "emojiDemo"
+            ReferencedContainer = "container:emojiDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C744FA041CC9C2EA0090E47A"
-            BuildableName = "EmojiDemo.app"
-            BlueprintName = "EmojiDemo"
-            ReferencedContainer = "container:EmojiDemo.xcodeproj">
+            BlueprintIdentifier = "6E9F1AB916ED5B46000356E1"
+            BuildableName = "emojiDemo.app"
+            BlueprintName = "emojiDemo"
+            ReferencedContainer = "container:emojiDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
