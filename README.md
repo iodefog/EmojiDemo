@@ -1,6 +1,4 @@
-# EmojiDemo
-
-Utf16字符串转变成Emoji表情，如@"d83dde04" to 😄   
+# Utf16字符串转变成Emoji表情，如@"d83dde04" to 😄   
 
 ```
 /**
