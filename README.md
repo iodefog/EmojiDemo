@@ -2,7 +2,7 @@
 
 Utf16字符串转变成Emoji表情，如@"d83dde04" to 😄   
 
-
+###
 /**
  *  utf16字符串进行Unicode编码 例如@"d83dde04" to 1F604
  *
@@ -85,3 +85,4 @@ Utf16字符串转变成Emoji表情，如@"d83dde04" to 😄
  *  @return 返回替换后的emoji字符串
  */
 + (NSString *)stringReplaceUtf8ToEmoji:(NSString *)searchText;
+###
