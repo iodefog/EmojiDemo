@@ -13,13 +13,7 @@
 //#define ATEST ((((0x3D << 2) | (0x204 >> 8)) << 8) | (0x204 & 0xFF)) + 0x10000
 
 @interface CViewController : UIViewController <UITextViewDelegate>
-@property (retain, nonatomic) IBOutlet UIButton *btnOK;
 @property (retain, nonatomic) IBOutlet UILabel *lbtext;
-- (IBAction)onbtnokclick:(id)sender;
-@property (retain, nonatomic) IBOutlet UITextField *tv;
 @property (retain, nonatomic) IBOutlet UITextView *viewtxt;
-@property (retain, nonatomic) IBOutlet UITextView *emojiView;
-@property (retain, nonatomic) IBOutlet UIScrollView *scrollview;
-@property (retain, nonatomic) IBOutlet UIImageView *imgview;
 
 @end
